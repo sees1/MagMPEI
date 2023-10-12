@@ -1,0 +1,264 @@
+\documentclass[a4paper, 14pt]{extreport}
+\usepackage[utf8x]{inputenc}
+\usepackage[russian]{babel}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{import}
+\usepackage{xifthen}
+\usepackage{pdfpages}
+\usepackage{transparent}
+\usepackage{calc}
+\usepackage{setspace}
+\usepackage{geometry}
+\usepackage{titlesec}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{verbatim}
+\usepackage[unicode, pdftex]{hyperref}
+\geometry{a4paper, portrait, margin=15mm, bmargin=15mm, tmargin=20mm}
+\graphicspath{ {./figure/} }
+
+\titleformat{\section}[block]{\normalfont\Large\bfseries\centering}{\thesection}{1ex}{}
+
+\newcommand{\incfig}[1]{%
+    \def\svgheight{\swgwidth}
+    \import{./figure/}{#1.pdf_tex}
+}
+
+\newcommand{\anonchapter}[1]{\chapter*{#1}
+\addcontentsline{toc}{chapter}{#1}
+}
+
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{ %
+language=C,                 % выбор языка для подсветки (здесь это С)
+basicstyle=\small\tffamily, % размер и начертание шрифта для подсветки кода
+numbers=left,               % где поставить нумерацию строк (слева\справа)
+numberstyle=\tiny,           % размер шрифта для номеров строк
+stepnumber=1,                   % размер шага между двумя номерами строк
+numbersep=5pt,                % как далеко отстоят номера строк от подсвечиваемого кода
+backgroundcolor=\color{white}, % цвет фона подсветки - используем \usepackage{color}
+showspaces=false,            % показывать или нет пробелы специальными отступами
+showstringspaces=false,      % показывать или нет пробелы в строках
+showtabs=false,             % показывать или нет табуляцию в строках
+frame=single,              % рисовать рамку вокруг кода
+tabsize=2,                 % размер табуляции по умолчанию равен 2 пробелам
+captionpos=b,              % позиция заголовка вверху [t] или внизу [b] 
+breaklines=true,           % автоматически переносить строки (да\нет)
+breakatwhitespace=false, % переносить строки только если есть пробел
+escapeinside={\%*}{*)}   % если нужно добавить комментарии в коде
+}
+
+\begin{document}
+\chapter{Постановка задачи}
+\par Жизнь в 21 веке тесно связана с технологиями. Каждый второй человек сейчас имеет полную по Тьюрингу вычислительную машину, которую называют телефоном. Все эти технологические новшества помогают сделать нашу и без того комфортную жизнь, еще более комфортной. Следующей вехой развития я вижу развитие IoT ( интернет - вещей ).
+\section{IoT}
+\par Термин IoT, или Интернет вещей, относится к коллективной сети подключенных устройств и технологии, которая облегчает связь между устройствами и облаком, а также между самими устройствами. Благодаря появлению недорогих компьютерных микросхем и телекоммуникаций с высокой пропускной способностью у нас теперь есть миллиарды устройств, подключенных к Интернету. Это означает, что повседневные устройства, такие как зубные щетки, пылесосы, автомобили и механические установки, могут использовать датчики для сбора данных и разумного реагирования на действия пользователей.
+\section{Cloud robotics}
+\par В связи с развитием технологий передачи информации на большие растояния с большой скоростью, многие робототехнические компании заинтересовались IoT и тем, как можно скрестить их с робототехникой в целом. Такой симбиоз получился очень удачным и открыл новую область робототехники - cloud robotics ( облачная робототехника ).
+\section{Цель работы}
+\par Целью мое работы будет разработка ПО для взаимодействия робота с некоторой облачной инфраструктурой, для задач SLAM алгоритма. То есть задача SLAM будет решаться в облаке.
+\par Возникает резонный вопрос, зачем переносить SLAM в облако? Вот несколько ключевых причин:
+\begin{itemize}
+        \item Снижение загруженности CPU/GPU на бортовом компьютере робота
+        \item Снижение зависимости робота от локально построенной карты помещения
+        \item Снижение потребления заряда батареи
+        \item Снижение стоимости робота
+\end{itemize}
+\chapter{Обзор состояния науки и техники}
+\par Для начала выделим необходимые технология для обеспечения работоспособности Cloud SLAM:
+\begin{itemize}
+        \item Стабильная сеть с высокой пропускной способностью
+        \item Платформы для разработки топологии взаимодействия между компонентами SLAM, которые имеют низкий overhead
+        \item Технологии для хранения данных, которые имеют низкий overhead
+        \item Технологии для передачи потоковых данных, которые имеют низкий overhead
+\end{itemize}
+\par Из этих абстрактных требований мы можем понять, что для обечпечения жизнеспособности такого метода вычисления карты и положения на ней требуются высокий уровень технического обеспечения и знаний. Такие жесткие требования проистекают от требования в низкой задержке. Если SLAM алгоритм имеет высокую задержку, то он оказывается бесполезным для работы.
+\section{Обзор литературы}
+\par Мной был проведен поиск литературы по схожей проблеме. Вот несколько статей:
+\begin{itemize}
+        \item Supun Kamburugamuve, Leif Christiansen, Geoffrey Fox. - A Framework for Real Time Processing of Sensor Data in Cloud. - Indiana University:April 2015. - 12 p.
+        \item Supun Kamburugamuve, Hegjing He, Geoffrey Fox. - Cloud-based Parallel Implementation of SLAM for Mobile Robots. - Indiana University:December 2017. - 8 p.
+\end{itemize}
+\par Обе эти статьи описывают типичное решения для задачи SLAM в облаке. В моей работе я хочу провести расширение идей вычислений в облаке для задач картографирования и локализации на карте.
+\chapter{Реализация}
+\par Архитектура подобного приложения предполагает 3 слоя:
+\begin{enumerate}
+        \item Gateway layer
+        \item Message Broker layer
+        \item Processing layer
+\end{enumerate}
+\par На Gateway layer мы предпологаем некое приложение или уже готовую технологию для связи драйвера робота и Message Broker - ов, таких как Kafka или RabbitMQ. Типичные решения - отсутсвуют(ну или я не нашел).
+\par На Message Broker layer мы распологаем брокеров сообщении, которые будут выступать в роли очереди для скопившихся сообщений, которые еще не были обработаны на Processing layer. Типичное решение - kafka, RabbitMQ
+\par На Processing layer распологается сама логика. В нашем случае - SLAM. На картинке выше представлен SLAM на основе фильтра частиц, который хорошо параллелиться, чего нельзя сказать о графовых SLAM. Типичное решение - Apache Storm из-за его ориентацию на stream ( те на потоки данных ), а не на batch ( пакеты ) данных.
+\chapter{Apache Storm}
+\par Для реализации топологии Apache Storm ( на 3-ем уровне ) есть моменты которые нужно учитывать. В данном фреймворке всем управляет Nimbus, он занимается распределением задач и сериализацией потоков данных в системе. Однако, управление идет не от него напрямую, а черезе специальную ноду - Zookeeper, которая управляет кластером машин ( может и виртуальных ), на которых запущенна сама топология - Spout ( принимающие и передающие tuple-ам информацию ) и Bolt ( принимающие, обрабатывающие и передающие tuple информацию ) нод. Визуально это выглядит следующим образом:
+\chapter{Обзор традиционных решений}
+\par Cloud robotics, к сожалению, пока всего лишь тенденция. SLAM прочно закрепился в inter ( внутреннем ) взаимодействии, к тому же, многие методы SLAM хорошо вписываются в архитектуру CPU, за счет чего, становяться более оптимизированными.
+\par Однако, в традиционном использовании SLAM алгоритмов мы ограничены производительностью бортового компьютера робота, в то время как на сервере, мы можем создать целый кластер компьютеров, которые в десятки раз быстрее буду обрабатывать данные с сенсоров. Хотелось бы сказать, что SLAM алгоритмы, которые используются на сервере и на роботах, по логике работы ничем не отличаются, поэтому ,чтобы выбрать наиболее подходящий нам SLAM алгоритм, мы проведем обзор.
+\par Сравнивать будем по следующим критериям:
+\begin{enumerate}
+        \item Используемые датчики, их максимальное количество.
+        \item Performance построения карты.
+        \item Performance локализации.
+        \item Accuracy построения карты.
+        \item Accuracy локализации.
+        \item Совместимость с пакетом robot\_localization.
+\end{enumerate}
+\par Performance построения карты сложно оценить полностью независимо от локализации. Поэтому, за оценку этого критерия будем брать загруженность CPU компьютера со следующими характеристиками:
+\begin{itemize}
+        \item CPU: AMD Ryzen 7 4800H \ 8 kernel \ 2.9 GHz ( 4.2 GHz - Turbo )
+        \item Mem: 16 GB DDR4 3200
+        \item GPU: NVIDIA GeForce GTX 1650 Ti \ 4 Gb video memory
+\end{itemize}
+\par Чтобы оценить performance локализации, будем замерять время от старта локализации, до того момента, пока возможные положения и ориентация робота не предут в стабильное состояние. Те будем замерять время на локализацию. При этом, для чистоты эксперемента, будем локализироваться по одной и той же траектории.
+\par Дабы оценить Accuracy построения карты, будем сравнивать построенную алгоритмом карту и карту помещения построенную в CAD системе.
+\par Accuracy локализации можно замерить встав на некоторую точку с заранее известными координатами. Затем провести сравнение координат, полученных из tf топиков и заранее известных координат.
+\par Так же для этих целей, у меня есть bag файл, любезно записанный моими коллегами. Будем использовать его. Скачать bag файл можно на моем github: \url{https://github.com/sees1/MagMPEI.git} 
+\section{Обзор SLAM}
+\subsection{OpenSlam's Gmapping + AMCL}
+\par slam\_gmapping - первая часть laser-base SLAM, который отвечает за mapping. Предположительно на фильтре частиц. Хорошо поддерживается, много документации, много примеров в открытом доступе.
+\par\noindent AMCL - вторая часть laser-base SLAM, которая отвечает за localization. Основан на фильтре частиц. Хорошо поддерживается, много документации, много примеров в открытом доступе.
+\vspace{2mm}
+\par\noindent \underline{Характеристики:}
+\par\textbf{Используемые датчики, их максимальное количество:} odometry(1 unit) + laser(1 unit)
+\par\textbf{Performance построение карты:} -
+\par\textbf{Performance локализации:} -
+\par\textbf{Accuracy построение карты:} -
+\par\textbf{Accuracy локализации:} -
+\par\textbf{Совместимость с пакетом RL:} совместим
+\par\textbf{slam\_gmapping repo:} \hspace{1mm}\url{https://github.com/ros-perception/slam_gmapping}
+\par\textbf{AMCL repo:}\hspace{1mm}\url{https://github.com/ros-planning/navigation/tree/noetic-devel/amcl}
+\subsection{hector\_slam}
+\par Полноценный laser-base SLAM. Предположительно на фильтре частиц. Динамически строит карту ( отправляет ее в топик ) и динамически локализируется на строящейся карте.
+\par\noindent Есть способы пробросить динамическую карту в move\_base. Использование локализаций из amcl не нужно, потому что hector при построении, автоматом локализуется на карте.
+\par\noindent Хорошо поддерживается.
+\vspace{2mm}
+\par\noindent \underline{Характеристики:}
+\par\textbf{Используемые датчики, их максимальное количество:} laser(1 unit) + Optional:odometry(1 unit)
+\par\textbf{Performance построение карты:} -
+\par\textbf{Performance локализации:} -
+\par\textbf{Accuracy построение карты:} -
+\par\textbf{Accuracy локализации:} -
+\par\textbf{Совместимость с пакетом RL:} совместим
+\par\textbf{repo:}\url{https://github.com/tu-darmstadt-ros-pkg/hector_slam}
+\subsection{rtabmap\_ros}
+\par SLAM работающий почти со всеми типами sensor\_msgs. Основан на графах. Хорошо поддерживается, много документации.
+\par\noindent Можно использовать, как самостоятельно решение, без move\_base пакета, для планирования, т.к. есть еще и Global/Local Planner.
+\vspace{2mm}
+\par\noindent \underline{Характеристики:}
+\par\textbf{Используемые датчики, их максимальное количество:} laser(1 unit)/lidar(1 unit)/camera(1 unit) + Optional:odometry(1 unit) + Optional:IMU(1 unit) + Optional:GPS(1 unit)
+\par\textbf{Performance построение карты:} -
+\par\textbf{Performance локализации:} -
+\par\textbf{Accuracy построение карты:} -
+\par\textbf{Accuracy локализации:} -
+\par\textbf{Совместимость с пакетом RL:} совместим
+\par\textbf{repo:}\url{https://github.com/introlab/rtabmap_ros}
+\subsection{cartographer\_ros}
+\par SLAM работающий в основном с laserScan/PointCloud. Основан на графах. Есть возможность использовать multiSLAM. Хорошо поддерживается, много документации.
+\par\noindent Можно использовать, как самостоятельно решение, без move\_base пакета, для планирования, т.к. есть еще и Global/Local Planner.
+\vspace{2mm}
+\par\noindent \underline{Характеристики:}
+\par\textbf{Используемые датчики, их максимальное количество:} laser(1 unit)/lidar(1 unit)/camera(1 unit) + Optional:odometry(1 unit) + Optional:IMU(1 unit) + Optional:GPS(1 unit)
+\par\textbf{Performance построение карты:} -
+\par\textbf{Performance локализации:} -
+\par\textbf{Accuracy построение карты:} -
+\par\textbf{Accuracy локализации:} -
+\par\textbf{Совместимость с пакетом RL:} совместим
+\par\textbf{repo:}\url{https://github.com/cartographer-project/cartographer_ros}
+\subsection{slam\_karto}
+\par SLAM работающий с laserScan. Предположительно основан на графах. Последний коммит 2020 года
+\vspace{2mm}
+\par\noindent \underline{Характеристики:}
+\par\textbf{Используемые датчики, их максимальное количество:} laser(1 unit) + Optional:odometry(1 unit)
+\par\textbf{Performance построение карты:} -
+\par\textbf{Performance локализации:} -
+\par\textbf{Accuracy построение карты:} -
+\par\textbf{Accuracy локализации:} -
+\par\textbf{Совместимость с пакетом RL:} совместим
+\par\textbf{repo:}\url{https://github.com/ros-perception/slam_karto}
+\subsection{mrpt\_slam}
+\par Обертка над SLAM алгоритмами из библиотеки Mobile Robot Programming Toolkit (MRPT). Есть как EKF алгоритмы SLAM, так и RBPF SLAM, Graph SLAM. Последний коммит 2023 года ( хорошо поддерживается )
+\vspace{2mm}
+\par\noindent \underline{Характеристики:}
+\par\textbf{Используемые датчики, их максимальное количество:} Probably:laser(1 unit)/lidar(1 unit) + Optional:odometry(1 unit)
+\par\textbf{Performance построение карты:} -
+\par\textbf{Performance локализации:} -
+\par\textbf{Accuracy построение карты:} -
+\par\textbf{Accuracy локализации:} -
+\par\textbf{Совместимость с пакетом RL:} совместим
+\par\textbf{repo:}\url{https://github.com/mrpt-ros-pkg/mrpt_slam}
+\subsection{rgbd\_slam}
+\par SLAM работающий с rgbd камерами, картинка с которых преобразуется в плотное облако точек и используется в качестве карты. Предположительно основан на фильтре цастиц. Последний коммит 2018 года.
+\vspace{2mm}
+\par\noindent \underline{Характеристики:}
+\par\textbf{Используемые датчики, их максимальное количество:} Probably:lidar(1 unit) or rgbdCam(1 unit) + odometry(1 unit)
+\par\textbf{Performance построение карты:} -
+\par\textbf{Performance локализации:} -
+\par\textbf{Accuracy построение карты:} -
+\par\textbf{Accuracy локализации:} -
+\par\textbf{Совместимость с пакетом RL:} совместим
+\par\textbf{repo:}\url{https://github.com/felixendres/rgbdslam_v2}
+\subsection{ohm\_tsd\_slam}
+\par SLAM работающий с laserScan. Основан на TSDF (truncated signed distance transform) алгоритме. Последний коммит 2020 года.
+\vspace{2mm}
+\par\noindent \underline{Характеристики:}
+\par\textbf{Используемые датчики, их максимальное количество:} laser(1 unit) + Optional:odometry(1 unit)
+\par\textbf{Performance построение карты:} -
+\par\textbf{Performance локализации:} -
+\par\textbf{Accuracy построение карты:} -
+\par\textbf{Accuracy локализации:} -
+\par\textbf{Совместимость с пакетом RL:} совместим
+\par\textbf{repo:}\url{https://github.com/autonohm/ohm_tsd_slam}
+\subsection{tiny\_slam\_ros\_cpp}
+\par SLAM работающий с laserScan. Предположительно основан на фильтре частиц. Последний коммит 2017 года.
+\vspace{2mm}
+\par\noindent \underline{Характеристики:}
+\par\textbf{Используемые датчики, их максимальное количество:} laser(1 unit) + Optional:odometry(1 unit)
+\par\textbf{Performance построение карты:} -
+\par\textbf{Performance локализации:} -
+\par\textbf{Accuracy построение карты:} -
+\par\textbf{Accuracy локализации:} -
+\par\textbf{Совместимость с пакетом RL:} совместим
+\par\textbf{repo:}\url{https://github.com/OSLL/tiny-slam-ros-cpp}
+\subsection{stereo\_slam}
+\par SLAM работающий со stereo cam. Предположительно основан на графах. Последний коммит 2017 года.
+\vspace{2mm}
+\par\noindent \underline{Характеристики:}
+\par\textbf{Используемые датчики, их максимальное количество:} stereo camera(1 unit) + Optional:odometry(1 unit)
+\par\textbf{Performance построение карты:} -
+\par\textbf{Performance локализации:} -
+\par\textbf{Accuracy построение карты:} -
+\par\textbf{Accuracy локализации:} -
+\par\textbf{Совместимость с пакетом RL:} совместим
+\par\textbf{repo:}\url{https://github.com/srv/stereo_slam}
+\subsection{lsd\_slam}
+\par SLAM работающий со mono cam. Предположительно основан на графах. Последний коммит 2014 года.
+\vspace{2mm}
+\par\noindent \underline{Характеристики:}
+\par\textbf{Используемые датчики, их максимальное количество:} mono camera(1 unit) + Optional:odometry(1 unit)
+\par\textbf{Performance построение карты:} -
+\par\textbf{Performance локализации:} -
+\par\textbf{Accuracy построение карты:} -
+\par\textbf{Accuracy локализации:} -
+\par\textbf{Совместимость с пакетом RL:} совместим
+\par\textbf{repo:}\url{https://github.com/tum-vision/lsd_slam}
+\subsection{crsm\_slam}
+\par SLAM работающий с laserScan. Предположительно основан на фильтре частиц. Последний коммит 2016 года.
+\vspace{2mm}
+\par\noindent \underline{Характеристики:}
+\par\textbf{Используемые датчики, их максимальное количество:} laser(1 unit) + Optional:odometry(1 unit)
+\par\textbf{Performance построение карты:} -
+\par\textbf{Performance локализации:} -
+\par\textbf{Accuracy построение карты:} -
+\par\textbf{Accuracy локализации:} -
+\par\textbf{Совместимость с пакетом RL:} совместим
+\par\textbf{repo:}\url{https://github.com/etsardou/crsm-slam-ros-pkg/tree/indigo-devel}
+\subsection{vslam}
+\par Очень мало информации.
+\par\textbf{repo:}\url{https://code.ros.org/svn/ros-pkg/stacks/vslam/trunk}
+\end{document}
