@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2024.3.15)  25 MAY 2025 19:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2024.3.15)  26 MAY 2025 20:22
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -417,9 +417,6 @@ LaTeX Warning: Label `fig:manip_photo' multiply defined.
 LaTeX Warning: Label `fig:manip_photo' multiply defined.
 
 
-LaTeX Warning: Label `fig:manip_photo' multiply defined.
-
-
 LaTeX Warning: Label `DescriptiveLabel' multiply defined.
 
 
@@ -590,14 +587,14 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(42.67912pt, 512.14963pt, 42.67912pt)
-* v-part:(T,H,B)=(56.9055pt, 745.46222pt, 42.67912pt)
+* h-part:(L,W,R)=(71.13188pt, 497.92325pt, 28.45274pt)
+* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=512.14963pt
-* \textheight=745.46222pt
-* \oddsidemargin=-29.59087pt
-* \evensidemargin=-29.59087pt
+* \textwidth=497.92325pt
+* \textheight=731.23584pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
 * \topmargin=-54.36449pt
 * \headheight=14.0pt
 * \headsep=25.0pt
@@ -636,7 +633,17 @@ LaTeX Info: Redefining \nameref on input line 153.
 
  (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-4.def
 File: uni-4.def 2013/05/13 UCS: Unicode data U+0400..U+04FF
-) [1
+)
+Overfull \hbox (3.87262pt too wide) in paragraph at lines 166--167
+[]\T2A/cmr/m/n/14.4 Технологии дис-три-бу-ции со-об-ще-ний, в част-но-сти FastDDS Discovery Server. 
+ []
+
+
+Overfull \hbox (9.45506pt too wide) in paragraph at lines 168--169
+[]\T2A/cmr/m/n/14.4 Реализация гра-фи-че-ско-го ин-тер-фей-са с ис-поль-зо-ва-ни-ем про-грамм-ной плат-
+ []
+
+[1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (/home/sees/CommLineProg/study/diplom/mag/new.toc [2
 
@@ -646,152 +653,146 @@ File: uni-4.def 2013/05/13 UCS: Unicode data U+0400..U+04FF
 
  [3] [4
 
-] [5]
-Overfull \hbox (3.80914pt too wide) in paragraph at lines 246--247
-[]\T2A/cmr/m/n/14.4 Классификация и си-сте-ма-ти-за-ция. Упо-ря-до-чи-ва-ние ин-фор-ма-ции спо-соб-ству-
+]
+Overfull \hbox (4.23244pt too wide) in paragraph at lines 201--203
+[]\T2A/cmr/m/n/14.4 Загруженность CPU/GPU на бор-то-вом ком-пью-те-ре ро-бо-та. Необ-хо-ди-мость
  []
 
-[6]
-Overfull \hbox (2.02286pt too wide) in paragraph at lines 263--273
-\T2A/cmr/m/n/14.4 со-зда-нию се-те-вых сер-ви-сов, та-кие как мик-ро-сер-вис-ная архитектура[[]][[]], сервис-
+
+Overfull \hbox (7.35477pt too wide) in paragraph at lines 219--221
+\T2A/cmr/m/n/14.4 зу-ю-щих-ся при раз-ра-бо-ке се-те-вых сер-ви-сов, гра-фи-че-ских ин-тер-фей-сов поль-
  []
 
-[7] [8]
-Overfull \hbox (17.29327pt too wide) in paragraph at lines 345--346
+[5]
+Overfull \hbox (4.88797pt too wide) in paragraph at lines 226--228
+[]\T2A/cmr/m/n/14.4 Анализ ре-зуль-та-тов. Про-ана-ли-зи-ро-вать ре-зуль-та-ты те-сти-ро-ва-ния, вы-явить
+ []
+
+[6] [7] [8]
+Overfull \hbox (31.51965pt too wide) in paragraph at lines 347--348
 \T2A/cmr/m/n/14.4 Transmission. - IEEE Transactions on Intelligent Transportation Systems:November
  []
 
 
-Overfull \hbox (5.3663pt too wide) in paragraph at lines 346--347
+Overfull \hbox (19.59268pt too wide) in paragraph at lines 348--349
 []\T2A/cmr/m/n/14.4 Pengfei Zhang, Huaimin Wang, Bo Ding, Suning Shang. - Cloud-Based Framework
  []
 
-[9] [10]
+
+Overfull \hbox (3.87411pt too wide) in paragraph at lines 348--349
+\T2A/cmr/m/n/14.4 for Scalable and Real-Time Multi-Robot Slam. - IEEE International Conference
+ []
+
+[9]
+Overfull \hbox (10.00624pt too wide) in paragraph at lines 349--350
+\T2A/cmr/m/n/14.4 based Parallel Implementation of SLAM for Mobile Robots. - ICC16:Proceedings
+ []
+
+
+Overfull \hbox (3.93466pt too wide) in paragraph at lines 363--364
+[]\T2A/cmr/m/n/14.4 Сложность: ре-ше-ния из об-ла-сти об-лач-ной ро-бо-то-тех-ни-ки мо-гут быть слож-
+ []
+
+[10] [11]
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 1.
 (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-32.def
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
-) [11
+) [12
 
-]
-Overfull \hbox (14.46394pt too wide) in paragraph at lines 386--387
-[]\T2A/cmr/m/n/14.4 Безопасности: Ис-поль-зо-ва-ние встро-ен-ных ме-ха-низ-мов аутен-ти-фи-ка-ции и шиф-
+] [13]
+Overfull \hbox (7.31187pt too wide) in paragraph at lines 411--412
+\T2A/cmr/m/n/14.4 Эта ар-хи-тек-ту-ра обес-пе-чи-ва-ет гиб-кость и мо-дуль-ность, поз-во-ляя со-зда-вать слож-
  []
 
-
-Overfull \hbox (11.59755pt too wide) in paragraph at lines 401--403
-\T2A/cmr/m/n/14.4 управ-лять вре-ме-нем и по-сле-до-ва-тель-но-стью за-пус-ка. Поз-во-ля-ет стро-ить слож-
- []
-
-[12]
 <./figure/ros2_overview_schema.png, id=318, 951.555pt x 468.75125pt>
 File: ./figure/ros2_overview_schema.png Graphic file (type png)
 <use ./figure/ros2_overview_schema.png>
-Package pdftex.def Info: ./figure/ros2_overview_schema.png  used on input line 421.
+Package pdftex.def Info: ./figure/ros2_overview_schema.png  used on input line 423.
 (pdftex.def)             Requested size: 475.77634pt x 234.37505pt.
- [13 <./figure/ros2_overview_schema.png>]
-Overfull \hbox (0.9264pt too wide) in paragraph at lines 464--466
-\T2A/cmr/m/n/14.4 ма-ция по-мо-га-ет си-сте-ме сбор-ки кор-рект-но опре-де-лять син-так-сис фай-ла сбор-
+[14 <./figure/ros2_overview_schema.png>]
+Overfull \hbox (3.90234pt too wide) in paragraph at lines 453--456
+\T2A/cmr/m/n/14.4 Команды при-ве-ден-ные вы-ше, яв-ля-ют-ся ос-нов-ной ча-стью Command Line Interface
  []
 
-<./figure/folder_schema.png, id=331, 298.11375pt x 547.04375pt>
+[15]
+<./figure/folder_schema.png, id=339, 298.11375pt x 547.04375pt>
 File: ./figure/folder_schema.png Graphic file (type png)
 <use ./figure/folder_schema.png>
-Package pdftex.def Info: ./figure/folder_schema.png  used on input line 482.
+Package pdftex.def Info: ./figure/folder_schema.png  used on input line 484.
 (pdftex.def)             Requested size: 149.0565pt x 273.5212pt.
-[14]
-<./figure/env_folder_schema.png, id=343, 258.9675pt x 374.39874pt>
+<./figure/env_folder_schema.png, id=344, 258.9675pt x 374.39874pt>
 File: ./figure/env_folder_schema.png Graphic file (type png)
 <use ./figure/env_folder_schema.png>
-Package pdftex.def Info: ./figure/env_folder_schema.png  used on input line 499.
+Package pdftex.def Info: ./figure/env_folder_schema.png  used on input line 501.
 (pdftex.def)             Requested size: 129.48341pt x 187.19891pt.
- [15 <./figure/folder_schema.png>] [16 <./figure/env_folder_schema.png>]
-LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 521.
+ [16] [17 <./figure/folder_schema.png>]
+LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 523.
  (/usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
 File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
-) (/home/sees/CommLineProg/study/diplom/mag/code/CMakeLists.txt) [17] (/home/sees/CommLineProg/study/diplom/mag/code/package.xml [18])
-Overfull \hbox (177.55238pt too wide) in paragraph at lines 543--555
-\T2A/cmr/m/n/14.4 внут-ри функ-ции project(...). Во-вторых, пар-ные тэ-ги ти-па сбор-ки - <buildtool_depend>...</buildtool_depend>
+) (/home/sees/CommLineProg/study/diplom/mag/code/CMakeLists.txt [18 <./figure/env_folder_schema.png>])
+Overfull \hbox (73.44728pt too wide) in paragraph at lines 524--535
+\T2A/cmr/m/n/14.4 лин-ков-ки биб-лио-тек из дру-гих па-ке-тов, на-при-мер, функ-ция ament_target_dependencies(...),
+ []
+
+[19] (/home/sees/CommLineProg/study/diplom/mag/code/package.xml)
+Overfull \hbox (67.10966pt too wide) in paragraph at lines 545--557
+\T2A/cmr/m/n/14.4 го се-мей-ства, сре-ди ко-то-рых <depend>...</depend>, <build_depend>...</build_depend>,
  []
 
 
-Overfull \hbox (11.37283pt too wide) in paragraph at lines 543--555
-\T2A/cmr/m/n/14.4 неболь-шое мно-же-стов тэ-гов это-го се-мей-ства, сре-ди ко-то-рых <depend>...</depend>,
+Overfull \hbox (4.84221pt too wide) in paragraph at lines 545--557
+\T2A/cmr/m/n/14.4 <test_depend>...</test_depend> и <exec_depend>...</exec_depend>. Пар-ный
  []
 
-
-Overfull \hbox (173.36884pt too wide) in paragraph at lines 543--555
-\T2A/cmr/m/n/14.4 <build_depend>...</build_depend>, <test_depend>...</test_depend> и <exec_depend>...</exec_depend>.
- []
-
-
-Overfull \hbox (7.19576pt too wide) in paragraph at lines 543--555
-\T2A/cmr/m/n/14.4 функ-ци-я-ми под-си-сте-мы сбор-ки, на-при-мер, за-ви-си-мость ука-зан-ная как exec_depend
- []
-
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+[20] (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2019/09/10 1.8c listings language file
 ) (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2019/09/10 1.8c (Carsten Heinz)
-) [19] (/home/sees/CommLineProg/study/diplom/mag/code/general.launch.py [20]) [21]
-Overfull \hbox (10.98343pt too wide) in paragraph at lines 604--606
-\T2A/cmr/m/n/14.4 что-бы вос-поль-зо-вать-ся свя-зью че-рез дан-ный сер-вер необ-хо-ди-мо ука-зать environment
+) (/home/sees/CommLineProg/study/diplom/mag/code/general.launch.py [21]) [22] [23] [24] [25] (/home/sees/CommLineProg/study/diplom/mag/code/Dockerfile.simple) [26] [27]
+Overfull \hbox (5.0894pt too wide) in paragraph at lines 727--729
+[]\T2A/cmr/m/n/14.4 Ограниченная под-держ-ка со-об-ще-ства. Срав-ни-тель-но низ-кая по-пу-ляр-ность,
  []
 
-[22]
-Overfull \hbox (12.34456pt too wide) in paragraph at lines 618--619
-[]\T2A/cmr/m/n/14.4 Docker Engine: ос-нов-ной ком-по-нент, обес-пе-чи-ва-ю-щий со-зда-ние, за-пуск и управ-
- []
-
-
-Overfull \hbox (12.15509pt too wide) in paragraph at lines 622--623
-[]\T2A/cmr/m/n/14.4 Docker Hub: об-лач-ный ре-естр для хра-не-ния и рас-про-стра-не-ния Docker-образов. 
+[28]
+Overfull \hbox (6.39351pt too wide) in paragraph at lines 734--741
+\T2A/cmr/m/n/14.4 мый ав-то-ном-ны-ми мо-биль-ны-ми системами[[]], поз-во-ля-ю-щий од-но-вре-мен-но стро-
  []
 
 
-Overfull \hbox (0.3689pt too wide) in paragraph at lines 630--631
-[]\T2A/cmr/m/n/14.4 Масштабируемость: Docker об-лег-ча-ет го-ри-зон-таль-ное мас-шта-би-ро-ва-ние при-
+Overfull \hbox (2.3477pt too wide) detected at line 746
+\OML/cmm/m/it/14.4 P\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 x[]; m\OMS/cmsy/m/n/14.4 j\OML/cmm/m/it/14.4 Z[]; U[]\OT1/cmr/m/n/14.4 ) = \OML/cmm/m/it/14.4 ^^QP\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 z[]\OMS/cmsy/m/n/14.4 j\OML/cmm/m/it/14.4 x[]; m\OT1/cmr/m/n/14.4 ) [] \OML/cmm/m/it/14.4 P\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 x[]\OMS/cmsy/m/n/14.4 j\OML/cmm/m/it/14.4 x[]; u[]\OT1/cmr/m/n/14.4 )\OML/cmm/m/it/14.4 P\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 x[]; m\OMS/cmsy/m/n/14.4 j\OML/cmm/m/it/14.4 Z[]; U[]\OT1/cmr/m/n/14.4 )\OML/cmm/m/it/14.4 dx[]
  []
 
-
-Overfull \hbox (5.51138pt too wide) in paragraph at lines 633--635
-[]\T2A/cmr/m/n/14.4 Эффективное ис-поль-зо-ва-ние ре-сур-сов: кон-тей-не-ры ис-поль-зу-ют ре-сур-сы хост-
- []
-
-[23] (/home/sees/CommLineProg/study/diplom/mag/code/Dockerfile.simple [24]) [25]
-Overfull \hbox (6.46532pt too wide) in paragraph at lines 710--712
-\T2A/cmr/m/n/14.4 тель-но мно-гие функ-ции су-ще-ству-ю-щие в Docker, не под-дер-жи-ва-ют-ся Podman. 
- []
-
-[26] [27]
-<./figure/bayes_filter_process.png, id=641, 1137.24875pt x 976.64874pt>
+[29]
+<./figure/bayes_filter_process.png, id=646, 1137.24875pt x 976.64874pt>
 File: ./figure/bayes_filter_process.png Graphic file (type png)
 <use ./figure/bayes_filter_process.png>
-Package pdftex.def Info: ./figure/bayes_filter_process.png  used on input line 764.
+Package pdftex.def Info: ./figure/bayes_filter_process.png  used on input line 766.
 (pdftex.def)             Requested size: 341.17726pt x 292.99689pt.
- [28] [29 <./figure/bayes_filter_process.png>] [30] [31] [32]
-Overfull \hbox (9.28796pt too wide) in paragraph at lines 901--904
-\T2A/cmr/m/n/14.4 Данный ал-го-ритм од-но-вре-мен-но-го кар-то-гра-фи-ро-ва-ния и ло-ка-ли-за-ции, как и преды-
- []
-
-[33] [34]
-Overfull \hbox (3.21184pt too wide) in paragraph at lines 952--955
-[]\T2A/cmr/m/n/14.4 Adaptive Communication Environment (ACE)[[]] - объектно-ориентированный
+ [30 <./figure/bayes_filter_process.png>] [31] [32] [33] [34]
+Overfull \hbox (11.96585pt too wide) in paragraph at lines 910--915
+\T2A/cmr/m/n/14.4 Компоненте amcl для кор-рект-ной ра-бо-ты, нуж-на дру-гая ком-по-нен-та - map_server,
  []
 
 [35] [36]
-{\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 2.
-[37
-
-]
-Overfull \hbox (4.17705pt too wide) in paragraph at lines 1009--1011
-\T2A/cmr/m/n/14.4 сер-ви-са-ми дол-жен имет воз-мож-ность управ-лять кон-тей-не-ра-ми че-рез RESTful
+Overfull \hbox (17.43822pt too wide) in paragraph at lines 954--957
+[]\T2A/cmr/m/n/14.4 Adaptive Communication Environment (ACE)[[]] - объектно-ориентированный
  []
 
-[38]
-<./figure/base_architure.png, id=742, 1374.13374pt x 590.205pt>
+[37] [38] [39]
+{\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 2.
+
+Overfull \hbox (6.04149pt too wide) in paragraph at lines 1007--1011
+\T2A/cmr/m/n/14.4 меж-ду мик-ро-сер-ви-са-ми и супер-клиентом, име-ю-щим воз-мож-ность на-строй-
+ []
+
+[40
+
+] [41]
+<./figure/base_architure.png, id=751, 1374.13374pt x 590.205pt>
 File: ./figure/base_architure.png Graphic file (type png)
 <use ./figure/base_architure.png>
-Package pdftex.def Info: ./figure/base_architure.png  used on input line 1031.
+Package pdftex.def Info: ./figure/base_architure.png  used on input line 1033.
 (pdftex.def)             Requested size: 480.95403pt x 206.57484pt.
  (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2019/09/10 1.8c listings language file
@@ -799,281 +800,293 @@ File: lstlang1.sty 2019/09/10 1.8c listings language file
 File: lstlang1.sty 2019/09/10 1.8c listings language file
 ) (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2019/09/10 1.8c (Carsten Heinz)
-) [39 <./figure/base_architure.png>]
+) [42 <./figure/base_architure.png>]
 LaTeX Font Info:    Font shape `T2A/cmtt/bx/n' in size <10> not available
-(Font)              Font shape `T2A/cmtt/m/n' tried instead on input line 1059.
- [40]
-<./figure/base_networking.png, id=763, 640.3925pt x 634.37pt>
+(Font)              Font shape `T2A/cmtt/m/n' tried instead on input line 1061.
+ [43]
+<./figure/base_networking.png, id=773, 640.3925pt x 634.37pt>
 File: ./figure/base_networking.png Graphic file (type png)
 <use ./figure/base_networking.png>
-Package pdftex.def Info: ./figure/base_networking.png  used on input line 1082.
+Package pdftex.def Info: ./figure/base_networking.png  used on input line 1084.
 (pdftex.def)             Requested size: 320.19547pt x 317.18422pt.
- [41 <./figure/base_networking.png>]
-<./figure/docker_connect.png, id=772, 693.59125pt x 298.11375pt>
+ [44 <./figure/base_networking.png>]
+<./figure/docker_connect.png, id=782, 693.59125pt x 298.11375pt>
 File: ./figure/docker_connect.png Graphic file (type png)
 <use ./figure/docker_connect.png>
-Package pdftex.def Info: ./figure/docker_connect.png  used on input line 1112.
+Package pdftex.def Info: ./figure/docker_connect.png  used on input line 1114.
 (pdftex.def)             Requested size: 416.15796pt x 178.86963pt.
- [42 <./figure/docker_connect.png>] [43]
-<./figure/layout_examp.png, id=787, 244.915pt x 207.77625pt>
+ [45 <./figure/docker_connect.png>] [46]
+<./figure/layout_examp.png, id=796, 244.915pt x 207.77625pt>
 File: ./figure/layout_examp.png Graphic file (type png)
 <use ./figure/layout_examp.png>
-Package pdftex.def Info: ./figure/layout_examp.png  used on input line 1171.
+Package pdftex.def Info: ./figure/layout_examp.png  used on input line 1173.
 (pdftex.def)             Requested size: 146.95012pt x 124.6667pt.
- [44]
-<./figure/menu_examp.jpg, id=793, 185.19188pt x 132.495pt>
+ [47]
+<./figure/menu_examp.jpg, id=802, 185.19188pt x 132.495pt>
 File: ./figure/menu_examp.jpg Graphic file (type jpg)
 <use ./figure/menu_examp.jpg>
-Package pdftex.def Info: ./figure/menu_examp.jpg  used on input line 1187.
+Package pdftex.def Info: ./figure/menu_examp.jpg  used on input line 1189.
 (pdftex.def)             Requested size: 111.11597pt x 79.49759pt.
-<./figure/dialog_examp.png, id=794, 277.035pt x 161.60374pt>
+<./figure/dialog_examp.png, id=803, 277.035pt x 161.60374pt>
 File: ./figure/dialog_examp.png Graphic file (type png)
 <use ./figure/dialog_examp.png>
-Package pdftex.def Info: ./figure/dialog_examp.png  used on input line 1196.
+Package pdftex.def Info: ./figure/dialog_examp.png  used on input line 1198.
 (pdftex.def)             Requested size: 166.22227pt x 96.96298pt.
-
-Overfull \hbox (1.4773pt too wide) in paragraph at lines 1192--1201
-\T2A/cmr/m/n/14.4 мым бу-дет со-зда-ния диа-ло-го-во-го ок-на, поз-во-ля-ю-ще-го поль-зо-ва-те-лю супер-клиента
- []
-
-<./figure/app_examp.png, id=795, 673.51625pt x 759.83875pt>
+<./figure/app_examp.png, id=804, 673.51625pt x 759.83875pt>
 File: ./figure/app_examp.png Graphic file (type png)
 <use ./figure/app_examp.png>
-Package pdftex.def Info: ./figure/app_examp.png  used on input line 1212.
+Package pdftex.def Info: ./figure/app_examp.png  used on input line 1214.
 (pdftex.def)             Requested size: 269.40172pt x 303.93011pt.
-[45 <./figure/layout_examp.png> <./figure/menu_examp.jpg> <./figure/dialog_examp.png>]
-<./figure/docker_folder_schema.png, id=805, 490.83376pt x 440.64626pt>
+ [48 <./figure/layout_examp.png> <./figure/menu_examp.jpg>]
+<./figure/docker_folder_schema.png, id=812, 490.83376pt x 440.64626pt>
 File: ./figure/docker_folder_schema.png Graphic file (type png)
 <use ./figure/docker_folder_schema.png>
-Package pdftex.def Info: ./figure/docker_folder_schema.png  used on input line 1230.
+Package pdftex.def Info: ./figure/docker_folder_schema.png  used on input line 1232.
 (pdftex.def)             Requested size: 294.50252pt x 264.38979pt.
- [46 <./figure/app_examp.png>]
-<./figure/client-serv-UML.png, id=812, 1410.26875pt x 1024.82875pt>
+ [49 <./figure/dialog_examp.png>]
+<./figure/client-serv-UML.png, id=820, 1410.26875pt x 1024.82875pt>
 File: ./figure/client-serv-UML.png Graphic file (type png)
 <use ./figure/client-serv-UML.png>
-Package pdftex.def Info: ./figure/client-serv-UML.png  used on input line 1244.
+Package pdftex.def Info: ./figure/client-serv-UML.png  used on input line 1246.
 (pdftex.def)             Requested size: 465.39014pt x 338.19453pt.
- [47 <./figure/docker_folder_schema.png>]
-Overfull \hbox (0.96454pt too wide) in paragraph at lines 1249--1256
-\T2A/cmr/m/n/14.4 се-ри-а-ли-зо-ван-ных за-про-сов от супер-клиента к сер-ве-ру. Здесь класс RequestHandler
+
+Overfull \hbox (34.98917pt too wide) in paragraph at lines 1251--1258
+\T2A/cmr/m/n/14.4 дес-се-ри-а-ли-зо-ван-ных за-про-сов от супер-клиента к сер-ве-ру. Здесь класс RequestHandler
  []
 
-[48 <./figure/client-serv-UML.png>]
-<./figure/client-serv-comm.png, id=825, 1845.89626pt x 1368.11125pt>
+[50 <./figure/app_examp.png>] [51 <./figure/docker_folder_schema.png>]
+<./figure/client-serv-comm.png, id=834, 1845.89626pt x 1368.11125pt>
 File: ./figure/client-serv-comm.png Graphic file (type png)
 <use ./figure/client-serv-comm.png>
-Package pdftex.def Info: ./figure/client-serv-comm.png  used on input line 1259.
+Package pdftex.def Info: ./figure/client-serv-comm.png  used on input line 1261.
 (pdftex.def)             Requested size: 489.16019pt x 362.54776pt.
- [49 <./figure/client-serv-comm.png>]
-<./figure/gui_uml.png, id=834, 1645.14626pt x 1784.6675pt>
+ [52 <./figure/client-serv-UML.png>]
+<./figure/gui_uml.png, id=841, 1645.14626pt x 1784.6675pt>
 File: ./figure/gui_uml.png Graphic file (type png)
 <use ./figure/gui_uml.png>
-Package pdftex.def Info: ./figure/gui_uml.png  used on input line 1283.
+Package pdftex.def Info: ./figure/gui_uml.png  used on input line 1285.
 (pdftex.def)             Requested size: 435.96169pt x 472.93465pt.
-
-Overfull \hbox (11.15883pt too wide) in paragraph at lines 1288--1296
-\T2A/cmr/m/n/14.4 ние со-зда-ни-ем клас-са супер-клиента ре-а-ли-зо-ва-но-го в ви-де клас-са RoboClientCreator,
- []
-
-
-Overfull \hbox (0.13446pt too wide) in paragraph at lines 1288--1296
-\T2A/cmr/m/n/14.4 поль-зо-ва-те-ля вво-да дан-ных. На-при-мер, класс ServerCredentialBox яв-ля-ет-ся всплы-
- []
-
-[50 <./figure/gui_uml.png>] [51]
-{\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 3.
-[52
+ [53 <./figure/client-serv-comm.png>] [54] [55
 
 ]
-Overfull \hbox (30.8728pt too wide) in paragraph at lines 1352--1364
+Overfull \vbox (14.0pt too high) has occurred while \output is active []
+
+
+{\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 3.
+[56
+
+]
+Overfull \hbox (45.09918pt too wide) in paragraph at lines 1354--1366
 []\T2A/cmr/m/n/14.4 Из за-го-ло-воч-но-го фай-ла вид-но, что класс ис-поль-зу-ет std::unique_ptr<RobotServer>
  []
 
-[53]
-Overfull \hbox (19.81682pt too wide) in paragraph at lines 1410--1421
-\T2A/cmr/m/n/14.4 пе-ре-да-ем объ-ек-ту resolver_, яв-ля-ю-щим-ся объ-ек-том клас-са boost::asio::ip::tcp::resolver,
+
+Overfull \hbox (9.7399pt too wide) in paragraph at lines 1354--1366
+\T2A/cmr/m/n/14.4 Кон-струк-тор клас-са при-ни-ма-ет ссыл-ки на объ-ек-ты клас-сов boost::asio::io_context
  []
 
-[54] [55]
-Overfull \hbox (0.32797pt too wide) in paragraph at lines 1496--1510
+[57]
+Overfull \hbox (56.12828pt too wide) in paragraph at lines 1412--1423
+\T2A/cmr/m/n/14.4 мы пе-ре-да-ем объ-ек-ту resolver_, яв-ля-ю-щим-ся объ-ек-том клас-са boost::asio::ip::tcp::resolver,
+ []
+
+[58] [59]
+Overfull \hbox (14.55435pt too wide) in paragraph at lines 1498--1512
 []\T2A/cmr/m/n/14.4 В кон-струк-то-ре, аб-страк-ция сер-ве-ра, ре-а-ли-зо-ван-но-го в ви-де клас-са RobotSever,
  []
 
-[56] [57] [58] [59] [60] [61]
-Overfull \hbox (26.43129pt too wide) in paragraph at lines 1802--1812
-\T2A/cmr/m/n/14.4 ри лямбда-функции ста-но-вит-ся до-ступ-ным объ-ект ec, клас-са boost::system::error_code,
+[60] [61] [62] [63] [64]
+Overfull \hbox (37.0492pt too wide) in paragraph at lines 1769--1771
+\T2A/cmr/m/n/14.4 ную за-да-чу свя-зи ко-то-рая со-зда-ет-ся с по-мо-щью С++ функ-ций boost::asio::async_write
  []
 
-[62] [63]
-Overfull \hbox (38.20642pt too wide) in paragraph at lines 1940--1956
-[]\T2A/cmr/m/n/14.4 Класс ClientCodec со-зда-ет-ся в кон-струк-то-ре клас-са RoboClient в ко-то-ром ClientCodec
+[65] [66] [67] [68]
+Overfull \hbox (29.60054pt too wide) in paragraph at lines 1942--1958
+\T2A/cmr/m/n/14.4 мож-но-сти, учет-ные дан-ные сер-ве-ра и хра-ни-ли-ще. В кон-струк-то-ре са-мо-го ClientCodec
+ []
+
+[69] [70] [71] [72] [73] [74] [75] [76] [77] [78]
+Overfull \hbox (7.11449pt too wide) in paragraph at lines 2411--2420
+\T2A/cmr/m/n/14.4 decodeHeader(...) и decodeData(...), т.к. без дес-се-ри-а-ли-за-ции "го-ло-вы"невозможно
  []
 
 
-Overfull \hbox (0.91397pt too wide) in paragraph at lines 1940--1956
-\T2A/cmr/m/n/14.4 пре-да-ют-ся объ-ектс кон-тек-ста, под-дер-жи-ва-ю-ще-го асин-хрон-ные воз-мож-но-сти, учет-
- []
-
-[64] [65] [66] [67] [68]
-Overfull \hbox (12.26697pt too wide) in paragraph at lines 2198--2208
-\T2A/cmr/m/n/14.4 но-го клас-са, их пе-ре-да-ча и осу-ществ-ля-ет-ся че-рез функ-ции async_write и async_read.
- []
-
-[69] [70]
-Overfull \hbox (10.12085pt too wide) in paragraph at lines 2238--2245
-\T2A/cmr/m/n/14.4 долж-но быть ни-ка-ких ком-манд, все осталь-ные ко-ман-ды со-от-вет-ству-ют ти-пу Request
- []
-
-[71] [72] [73]
-Overfull \hbox (67.91972pt too wide) in paragraph at lines 2418--2420
+Overfull \hbox (82.1461pt too wide) in paragraph at lines 2420--2422
 []\T2A/cmr/m/n/14.4 Процесс се-ри-а-ли-за-ци-и/-дес-се-ри-а-ли-за-ции стро-го за-дан в ме-то-дах клас-сов Encoder/Decoder,
  []
 
-[74] [75] [76] [77] [78]
-Overfull \hbox (5.69354pt too wide) in paragraph at lines 2599--2612
-[]\T2A/cmr/m/n/14.4 Данный класс ре-а-ли-зу-ет пат-тер про-грам-ми-ро-ва-ния "Ко-ман-да". Управ-ляя груп-
+
+Overfull \hbox (13.02747pt too wide) in paragraph at lines 2426--2429
+\T2A/cmr/m/n/14.4 Обработкой от-ве-тов и фор-ми-ро-ва-ни-ем за-про-сов, за-ни-ма-ет-ся сам класс RoboClient,
  []
 
-
-Overfull \hbox (18.6109pt too wide) in paragraph at lines 2599--2612
-\T2A/cmr/m/n/14.4 про-сы кли-ен-та. В кон-струк-то-ре клас-са со-зда-ют-ся объ-ек-ты клас-са Docker<ASLHttp>,
- []
-
-
-Overfull \hbox (10.87863pt too wide) in paragraph at lines 2599--2612
-\T2A/cmr/m/n/14.4 струк-то-ра клас-са RequestHandler со-зда-ет-ся объ-ект отоб-ра-же-ния command_to_exec,
- []
-
-[79] [80] [81] [82] [83] [84] [85] [86] [87]
-<./figure/gui-stack-wgt.png, id=2394, 1114.1625pt x 533.995pt>
+[79] [80] [81] [82] [83] [84] [85] [86] [87] [88] [89] [90] [91] [92] [93]
+<./figure/gui-stack-wgt.png, id=2459, 1114.1625pt x 533.995pt>
 File: ./figure/gui-stack-wgt.png Graphic file (type png)
 <use ./figure/gui-stack-wgt.png>
-Package pdftex.def Info: ./figure/gui-stack-wgt.png  used on input line 3544.
+Package pdftex.def Info: ./figure/gui-stack-wgt.png  used on input line 3546.
 (pdftex.def)             Requested size: 445.6571pt x 213.59421pt.
 
-Overfull \hbox (118.36969pt too wide) in paragraph at lines 3533--3549
-\T2A/cmr/m/n/14.4 цы отоб-ра-жа-ю-щий в се-бе об-ра-за мик-ро-сер-ви-сов, ко-то-рые мож-но со-брать, container_name_table_wgt,
+Overfull \hbox (12.86264pt too wide) in paragraph at lines 3535--3551
+[]\T2A/cmr/m/n/14.4 Здесь идет со-зда-ние объ-ект glue_container_name_wgt_, ко-то-рый бу-дет управ-
  []
 
-[88]
-<./figure/prep_context_menu.png, id=2449, 453.695pt x 161.60374pt>
+
+Overfull \hbox (73.56854pt too wide) in paragraph at lines 3535--3551
+\T2A/cmr/m/n/14.4 се-бе со-бран-ные об-ра-за мик-ро-сер-ви-сов, ко-то-рые мож-но за-пу-стить, container_run_table_wgt,
+ []
+
+[94 <./figure/gui-stack-wgt.png>]
+<./figure/prep_context_menu.png, id=2473, 453.695pt x 161.60374pt>
 File: ./figure/prep_context_menu.png Graphic file (type png)
 <use ./figure/prep_context_menu.png>
-Package pdftex.def Info: ./figure/prep_context_menu.png  used on input line 3564.
+Package pdftex.def Info: ./figure/prep_context_menu.png  used on input line 3566.
 (pdftex.def)             Requested size: 226.84694pt x 80.80167pt.
-<./figure/build_context_menu.png, id=2450, 457.71pt x 159.59625pt>
+<./figure/build_context_menu.png, id=2474, 457.71pt x 159.59625pt>
 File: ./figure/build_context_menu.png Graphic file (type png)
 <use ./figure/build_context_menu.png>
-Package pdftex.def Info: ./figure/build_context_menu.png  used on input line 3568.
+Package pdftex.def Info: ./figure/build_context_menu.png  used on input line 3570.
 (pdftex.def)             Requested size: 228.85445pt x 79.79791pt.
-<./figure/run_context_menu.png, id=2451, 457.71pt x 274.02374pt>
+<./figure/run_context_menu.png, id=2475, 457.71pt x 274.02374pt>
 File: ./figure/run_context_menu.png Graphic file (type png)
 <use ./figure/run_context_menu.png>
-Package pdftex.def Info: ./figure/run_context_menu.png  used on input line 3572.
+Package pdftex.def Info: ./figure/run_context_menu.png  used on input line 3574.
 (pdftex.def)             Requested size: 228.85445pt x 137.01154pt.
- [89 <./figure/gui-stack-wgt.png>] [90 <./figure/prep_context_menu.png> <./figure/build_context_menu.png> <./figure/run_context_menu.png>]
-<./figure/cred_dialog.png, id=2489, 196.735pt x 217.81375pt>
+ [95 <./figure/prep_context_menu.png> <./figure/build_context_menu.png> <./figure/run_context_menu.png>]
+<./figure/cred_dialog.png, id=2492, 196.735pt x 217.81375pt>
 File: ./figure/cred_dialog.png Graphic file (type png)
 <use ./figure/cred_dialog.png>
-Package pdftex.def Info: ./figure/cred_dialog.png  used on input line 3614.
+Package pdftex.def Info: ./figure/cred_dialog.png  used on input line 3616.
 (pdftex.def)             Requested size: 78.6926pt x 87.12395pt.
- [91 <./figure/cred_dialog.png>]
+ [96 <./figure/cred_dialog.png>] [97]
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 4.
-[92
 
-] [93] (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-33.def
+Overfull \hbox (12.87437pt too wide) in paragraph at lines 3638--3639
+[]\T2A/cmr/m/n/14.4 Возможность пе-рес-сыл-ки со-об-ще-ний по се-ти, ис-поль-зуя тех-но-ло-гии TCP/IP. 
+ []
+
+
+Overfull \hbox (15.35435pt too wide) in paragraph at lines 3644--3646
+[]\T2A/cmr/m/n/14.4 Поддержка воз-мож-но-сти управ-ле-ния несколь-ки-ми сер-ве-ра-ми с од-но-го супер-
+ []
+
+
+Overfull \hbox (9.66492pt too wide) in paragraph at lines 3650--3652
+[]\T2A/cmr/m/n/14.4 Возможность из-ме-не-ния функ-ци-о-наль-но-сти мик-ро-сер-ви-са с по-мо-щью ROS2
+ []
+
+[98
+
+] [99]
+<./figure/net_latt.png, id=2539, 1387.584pt x 724.8681pt>
+File: ./figure/net_latt.png Graphic file (type png)
+<use ./figure/net_latt.png>
+Package pdftex.def Info: ./figure/net_latt.png  used on input line 3711.
+(pdftex.def)             Requested size: 444.03595pt x 231.96252pt.
+<./figure/net_lat_hist.png, id=2540, 1387.584pt x 724.8681pt>
+File: ./figure/net_lat_hist.png Graphic file (type png)
+<use ./figure/net_lat_hist.png>
+Package pdftex.def Info: ./figure/net_lat_hist.png  used on input line 3715.
+(pdftex.def)             Requested size: 444.03595pt x 231.96252pt.
+<./figure/cpu_load.png, id=2541, 1387.584pt x 724.8681pt>
+File: ./figure/cpu_load.png Graphic file (type png)
+<use ./figure/cpu_load.png>
+Package pdftex.def Info: ./figure/cpu_load.png  used on input line 3727.
+(pdftex.def)             Requested size: 416.27841pt x 217.4621pt.
+<./figure/cpu_load_hist.png, id=2542, 1387.584pt x 724.8681pt>
+File: ./figure/cpu_load_hist.png Graphic file (type png)
+<use ./figure/cpu_load_hist.png>
+Package pdftex.def Info: ./figure/cpu_load_hist.png  used on input line 3730.
+(pdftex.def)             Requested size: 416.27841pt x 217.4621pt.
+ (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-0.def
+File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
+) [100] [101] [102
+
+]
+Overfull \vbox (14.0pt too high) has occurred while \output is active []
+
+ (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-33.def
 File: uni-33.def 2013/05/13 UCS: Unicode data U+2100..U+21FF
 )
-Underfull \hbox (badness 2671) in paragraph at lines 3671--3672
+Underfull \hbox (badness 1331) in paragraph at lines 3754--3755
 []\T2A/cmr/m/n/14.4 Miratabzadeh S. A. и др. Cloud robotics: A software architecture: For
  []
 
 
-Underfull \hbox (badness 1205) in paragraph at lines 3678--3679
-[]\T2A/cmr/m/n/14.4 Newman S. Building microservices: designing fine-grained systems. Beijing
+Underfull \hbox (badness 1448) in paragraph at lines 3754--3755
+\T2A/cmr/m/n/14.4 heterogeneous large-scale autonomous robots // 2016 World Automation
  []
 
-[94
+
+Underfull \hbox (badness 1231) in paragraph at lines 3757--3758
+[]\T2A/cmr/m/n/14.4 Eng L. Z. Qt5 C++ GUI programming cookbook: practical recipes for
+ []
+
+[103
 
 ]
-Underfull \hbox (badness 2521) in paragraph at lines 3693--3694
-[]\T2A/cmr/m/n/14.4 Rassokhin D. The C++ programming language in cheminformatics and
+Underfull \hbox (badness 1924) in paragraph at lines 3769--3770
+[]\T2A/cmr/m/n/14.4 Олифер В. Ком-пью-тер-ные се-ти. Прин-ци-пы, тех-но-ло-гии, про-то-ко-лы.
  []
 
-
-Underfull \hbox (badness 1178) in paragraph at lines 3696--3697
-[]\T2A/cmr/m/n/14.4 Corsaro A., C. D. The Data Distribution Service ^^U The Communication
- []
-
-[95] (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-0.def
-File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
-)
-Underfull \hbox (badness 1436) in paragraph at lines 3703--3704
-[]\T2A/cmr/m/n/14.4 Voronkov A., Martucci L. A., Lindskog S. System Administrators Prefer
- []
-
-
-Underfull \hbox (badness 1024) in paragraph at lines 3703--3704
-\T2A/cmr/m/n/14.4 Command Line Interfaces, Don't They? An Exploratory Study of Firewall
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3706--3707
+[104]
+Underfull \hbox (badness 10000) in paragraph at lines 3789--3790
 []\T2A/cmr/m/n/14.4 Simple Participant Discovery [Элек-трон-ный ре-сурс]. URL: [][]$\T2A/cmtt/m/n/14.4 https :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3706--3707
-\T2A/cmtt/m/n/14.4 / / community . rti . com / static / documentation / connext-[]dds / current / doc /
+Underfull \hbox (badness 10000) in paragraph at lines 3789--3790
+\T2A/cmtt/m/n/14.4 / / community . rti . com / static / documentation / connext-[]dds / current /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3706--3707
-\T2A/cmtt/m/n/14.4 manuals / connext _ dds _ professional / users _ manual / users _ manual / Simple _
+Underfull \hbox (badness 10000) in paragraph at lines 3789--3790
+\T2A/cmtt/m/n/14.4 doc / manuals / connext _ dds _ professional / users _ manual / users _ manual /
  []
 
-[96]
-Underfull \hbox (badness 1320) in paragraph at lines 3724--3725
-\T2A/cmr/m/n/14.4 International Conference on Robotics and Automation (ICRA). Stockholm,
+[105]
+Underfull \hbox (badness 2096) in paragraph at lines 3799--3800
+[]\T2A/cmr/m/n/14.4 Kitanov A., Indelman V. Topological belief space planning for active
  []
 
-[97]
-Underfull \hbox (badness 1337) in paragraph at lines 3731--3732
-[]\T2A/cmr/m/n/14.4 Schmidt D. C. Using design patterns to develop reusable object-oriented
+[106]
+Underfull \hbox (badness 1127) in paragraph at lines 3806--3807
+[]\T2A/cmr/m/n/14.4 Labbe M., Michaud F. RTAB-Map as an open-source lidar and visual
  []
 
 
-Underfull \hbox (badness 2653) in paragraph at lines 3732--3733
+Underfull \hbox (badness 1205) in paragraph at lines 3815--3816
 []\T2A/cmr/m/n/14.4 Williams A. C++ concurrency in action. Shelter Island, NY: Manning
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3741.
-[98]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 3741.
+[107]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3824.
+ [108]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 3824.
  (/home/sees/CommLineProg/study/diplom/mag/new.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 3741.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 3741.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 3824.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 3824.
 Package rerunfilecheck Info: File `new.out' has not changed.
-(rerunfilecheck)             Checksum: 1593E4BA857515D9C1FFA3607C081D9F;8816.
+(rerunfilecheck)             Checksum: 7ABA73EF4AEEC0813EE0D4C7CE7B9EAF;8481.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 3741.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 3824.
  ) 
 Here is how much of TeX's memory you used:
- 19660 strings out of 482657
- 280368 string characters out of 5957838
- 877573 words of memory out of 5000000
- 32469 multiletter control sequences out of 15000+600000
+ 19699 strings out of 482657
+ 281084 string characters out of 5957838
+ 881577 words of memory out of 5000000
+ 32499 multiletter control sequences out of 15000+600000
  550430 words of font info for 53 fonts, out of 8000000 for 9000
  430 hyphenation exceptions out of 8191
  40i,10n,62p,4524b,2200s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/sees/.texlive2019/texmf-var/fonts/pk/ljfour/lh/lh-t2a/latt1440.600pk> </home/sees/.texlive2019/texmf-var/fonts/pk/ljfour/lh/lh-t2a/latt1000.600pk> </home/sees/.texlive2019/texmf-var/fonts/pk/ljfour/lh/lh-t2a/latt1200.600pk> </home/sees/.texlive2019/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm0600.600pk> </home/sees/.texlive2019/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1728.600pk> </home/sees/.texlive2019/texmf-var/fonts/pk/ljfour/lh/lh-t2a/lasl1440.600pk> </home/sees/.texlive2019/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labl1440.600pk> </home/sees/.texlive2019/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx2074.600pk> </home/sees/.texlive2019/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx2986.600pk> </home/sees/.texlive2019/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx3583.600pk> </home/sees/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1440.600pk> </home/sees/.texlive2019/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm1440.600pk> </home/sees/.texlive2019/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1440.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on /home/sees/CommLineProg/study/diplom/mag/new.pdf (98 pages, 1590752 bytes).
+Output written on /home/sees/CommLineProg/study/diplom/mag/new.pdf (108 pages, 1377593 bytes).
 PDF statistics:
- 3669 PDF objects out of 4296 (max. 8388607)
- 2838 compressed objects within 29 object streams
- 1921 named destinations out of 2073 (max. 500000)
- 389 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3718 PDF objects out of 4296 (max. 8388607)
+ 2867 compressed objects within 29 object streams
+ 1930 named destinations out of 2073 (max. 500000)
+ 401 words of extra memory for PDF output out of 10000 (max. 10000000)
 
